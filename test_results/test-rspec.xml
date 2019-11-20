@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="4" skipped="0" failures="0" errors="0" time="0.009117" timestamp="2019-11-20T16:24:51+10:00" hostname="MP1C9KEB">
+<properties>
+<property name="seed" value="17037"/>
+</properties>
+<testcase classname="spec.pipelines.ruby_spec" name="Pipelines::Ruby has a version number" file="./spec/pipelines/ruby_spec.rb" time="0.002423"></testcase>
+<testcase classname="spec.pipelines.ruby_spec" name="Pipelines::Ruby does something useful" file="./spec/pipelines/ruby_spec.rb" time="0.002358"></testcase>
+<testcase classname="spec.pipelines.ruby_spec" name="Pipelines::Ruby returns upper case for input_string" file="./spec/pipelines/ruby_spec.rb" time="0.000076"></testcase>
+<testcase classname="spec.pipelines.ruby_spec" name="Pipelines::Ruby returns lower case for input_string" file="./spec/pipelines/ruby_spec.rb" time="0.000046"></testcase>
+</testsuite>

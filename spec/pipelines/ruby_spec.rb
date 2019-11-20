@@ -15,7 +15,7 @@ RSpec.describe Pipelines::Ruby do
   end
 
   it "returns lower case for input_string" do
-      expected_string = "Your life is the sum result of all the choices you make."
+      expected_string = "your life is the sum result of all the choices you make."
       expect(Pipelines::StringOps.to_lower(input_string)).to eq(expected_string)
   end
 
