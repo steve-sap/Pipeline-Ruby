@@ -7,12 +7,11 @@ pool:
   name: 'vmAgent'
 
 steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.5'
+#- task: UseRubyVersion@0
+#  inputs:
+#    versionSpec: '>= 2.5'
 
 - script: |
-    gem install bundler --version '= 1.17.2'
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
